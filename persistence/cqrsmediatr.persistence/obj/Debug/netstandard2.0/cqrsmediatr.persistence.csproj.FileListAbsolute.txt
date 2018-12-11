@@ -1,0 +1,14 @@
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netstandard2.0/cqrsmediatr.persistence.deps.json
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netstandard2.0/cqrsmediatr.persistence.runtimeconfig.json
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netstandard2.0/cqrsmediatr.persistence.runtimeconfig.dev.json
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netstandard2.0/cqrsmediatr.persistence.dll
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netstandard2.0/cqrsmediatr.persistence.pdb
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netstandard2.0/cqrsmediatr.domain.dll
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netstandard2.0/cqrsmediatr.domain.pdb
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netstandard2.0/cqrsmediatr.persistence.csprojAssemblyReference.cache
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netstandard2.0/cqrsmediatr.persistence.csproj.CoreCompileInputs.cache
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netstandard2.0/cqrsmediatr.persistence.AssemblyInfoInputs.cache
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netstandard2.0/cqrsmediatr.persistence.AssemblyInfo.cs
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netstandard2.0/cqrsmediatr.persistence.csproj.CopyComplete
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netstandard2.0/cqrsmediatr.persistence.dll
+/Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netstandard2.0/cqrsmediatr.persistence.pdb
