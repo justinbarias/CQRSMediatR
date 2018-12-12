@@ -7,12 +7,3 @@
 /Users/bariasju/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.dll
 /Users/bariasju/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.pdb
 /Users/bariasju/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.csprojAssemblyReference.cache
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/bin/Debug/netstandard2.0/cqrsmediatr.domain.deps.json
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/bin/Debug/netstandard2.0/cqrsmediatr.domain.dll
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/bin/Debug/netstandard2.0/cqrsmediatr.domain.pdb
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.csprojAssemblyReference.cache
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.csproj.CoreCompileInputs.cache
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.AssemblyInfoInputs.cache
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.AssemblyInfo.cs
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.dll
-/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/Debug/netstandard2.0/cqrsmediatr.domain.pdb
