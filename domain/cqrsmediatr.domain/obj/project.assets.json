@@ -2,13 +2,35 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "MediatR/5.1.0": {
+      "MediatR/6.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MediatR.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -47,24 +69,50 @@
     }
   },
   "libraries": {
-    "MediatR/5.1.0": {
-      "sha512": "jeDegLfMe62NHC1oAz8FlWTQva4pOUAx/rk35TfpUUbr8MkqpJZYljh1ZrnKavhPPgUUHxUSay/6KEPYd4H57g==",
+    "MediatR/6.0.0": {
+      "sha512": "nQrQ4Ngy5eyS6Oi53e9oreZ8hl6RJOv8ohNExA/QZdnshLySsVUEAAqTDIEOobjPzwQ2itTB5fukdfRV4eGbQQ==",
       "type": "package",
-      "path": "mediatr/5.1.0",
+      "path": "mediatr/6.0.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/MediatR.dll",
-        "lib/netstandard1.3/MediatR.dll",
+        "lib/net461/MediatR.dll",
         "lib/netstandard2.0/MediatR.dll",
-        "mediatr.5.1.0.nupkg.sha512",
+        "mediatr.6.0.0.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },
+    "MediatR.Extensions.Microsoft.DependencyInjection/6.0.0": {
+      "sha512": "KccGKkpTfXCJakyA+O+q7gXK1DWM1Zk7GEoDrq8sk54GWrUpdUA04Z5HN0iXo9RUVhwCfrZRx0B2FYMbnVQG4Q==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "P4dK3DZQFsp7fFzkBu9H9jesBj0KB3O9c50n9FeAOIF+A8aQKBRj63luC9gPqvcedNdMfYQoEUe5dLps1sqvuA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "CKLMC66XQkTqCvnC0/iPae9wgkSOlvYfrm6MSHQIsFALhkxaVdbd8Ju4jCdf1ieL7PJkPKT6l8EMj4ZL5rQ6kg==",
+      "sha512": "s/dBveY1Ksry0B9iO27AmNYzn63zxepqDdZGAGT7dVv1VGeGCRLEhmWmQsqWv3cuTqetdOuZsxEI7qDeqV+2iQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -74,11 +122,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "R73gEjqCkI2Nw/IlN8QvcgPNklqQiPowp47JwvW0Bnp/RZnjN4UrJwEvWVJWRK1MsQ+HIfGe9i4aQlfK+ei9jA==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
-        ".signature.p7s",
+        ".nupkg.metadata",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -292,35 +340,35 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "MediatR >= 5.1.0",
+      "MediatR >= 6.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 6.0.0",
       "NETStandard.Library >= 2.0.3",
       "System.ComponentModel.Annotations >= 4.5.0"
     ]
   },
   "packageFolders": {
-    "/Users/bariasju/.nuget/packages/": {},
+    "/Users/justinbarias/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bariasju/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/cqrsmediatr.domain.csproj",
+      "projectUniqueName": "/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/cqrsmediatr.domain.csproj",
       "projectName": "cqrsmediatr.domain",
-      "projectPath": "/Users/bariasju/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/cqrsmediatr.domain.csproj",
-      "packagesPath": "/Users/bariasju/.nuget/packages/",
-      "outputPath": "/Users/bariasju/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/",
+      "projectPath": "/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/cqrsmediatr.domain.csproj",
+      "packagesPath": "/Users/justinbarias/.nuget/packages/",
+      "outputPath": "/Users/justinbarias/Documents/Git/CQRSMediatR/domain/cqrsmediatr.domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/bariasju/.nuget/NuGet/NuGet.Config"
+        "/Users/justinbarias/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "http://artifactory.dev.cba/artifactory/api/nuget/digital-platform": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -339,7 +387,11 @@
         "dependencies": {
           "MediatR": {
             "target": "Package",
-            "version": "[5.1.0, )"
+            "version": "[6.0.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

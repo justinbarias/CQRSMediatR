@@ -11,8 +11,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
+using MediatR;
 
 using cqrsmediatr.persistence;
+using cqrsmediatr.domain.commands;
 
 namespace cqrsmediatr.web
 {
@@ -32,6 +34,8 @@ namespace cqrsmediatr.web
             services.AddDbContext<ApiContext>(options =>
                 options.UseSqlServer(dbConnString)
             );
+            
+            services.AddMediatR(typeof(Startup), typeof(TodoItemCommand), typeof(TodoItemQuery));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

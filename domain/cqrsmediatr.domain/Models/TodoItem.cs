@@ -10,7 +10,7 @@ namespace cqrsmediatr.domain.models
         [Key]
         public string Id {get; set;}
         public bool IsCompleted {get; set;}
-        public bool Title  {get; set;}
-        public bool Description  {get; set;}
+        public string Title  {get; set;}
+        public string Description  {get; set;}
     }
 }
