@@ -12,3 +12,17 @@
 /Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.csproj.CopyComplete
 /Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.dll
 /Users/bariasju/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.pdb
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netcoreapp2.0/cqrsmediatr.persistence.deps.json
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netcoreapp2.0/cqrsmediatr.persistence.runtimeconfig.json
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netcoreapp2.0/cqrsmediatr.persistence.runtimeconfig.dev.json
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netcoreapp2.0/cqrsmediatr.persistence.dll
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netcoreapp2.0/cqrsmediatr.persistence.pdb
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netcoreapp2.0/cqrsmediatr.domain.dll
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/bin/Debug/netcoreapp2.0/cqrsmediatr.domain.pdb
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.csprojAssemblyReference.cache
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.csproj.CoreCompileInputs.cache
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.AssemblyInfoInputs.cache
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.AssemblyInfo.cs
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.csproj.CopyComplete
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.dll
+/Users/justinbarias/Documents/Git/CQRSMediatR/persistence/cqrsmediatr.persistence/obj/Debug/netcoreapp2.0/cqrsmediatr.persistence.pdb
